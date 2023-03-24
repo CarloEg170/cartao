@@ -2,23 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: center;
 }
 
-
-
-#imgUsuario{
-    margin: 10px;
+#corpo{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #060212;
 }
+
+.color{
+    color: #ffeaf2;
+}
+
+.iconColor{
+    color:  #99173c;
+    font-size: 1.8rem;
+}
+
+.fa-user-secret{
+    color:#99173c;
+    font-size: 5rem;
+}
+
 .text{
-    font-size: 1rem;
-    margin-left: 10px;
+    font-size: 1.7rem;
+    color:  #99173c;
 }
 
-.Icon{
-    padding: 20px;
-    
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
